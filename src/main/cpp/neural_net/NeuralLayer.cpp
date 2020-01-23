@@ -22,8 +22,3 @@ void neural_net::NeuralLayer::train(std::vector<double> &inputs, std::vector<dou
 {
  // TODO: Implement this
 }
-
-void train(std::vector<double> &inputs, std::vector<double> &expectedOutput)
-{
-  // TODO: Implement This
-}
