@@ -9,7 +9,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b318d2-e708-42db-b0eb-8e7f33ce9dcf" name="Default Changelist" comment="" />
+    <list default="true" id="c6b318d2-e708-42db-b0eb-8e7f33ce9dcf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/cpp/neural_net/NeuralLayer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/cpp/neural_net/NeuralNetwork.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/cpp/neural_net/Neuron.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/headers/neural_net/NeuralLayer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/headers/neural_net/NeuralNetwork.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/headers/neural_net/Neuron.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/headers/app.h" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +27,22 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="GradleNativeBuildProfile:debug" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,12 +60,83 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle assembleRelease" />
+      <command value="gradle build" />
+      <command value="gradle compileReleaseCpp" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.SimpleNeuralNet [compileReleaseCpp]">
     <configuration name="SimpleNeuralNet" type="GradleAppRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimpleNeuralNet" TARGET_NAME="SimpleNeuralNet" CONFIG_NAME="SimpleNeuralNet [debug]" RUN_TARGET_PROJECT_NAME="SimpleNeuralNet" RUN_TARGET_NAME="SimpleNeuralNet">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleNeuralNet [assembleRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleRelease" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleNeuralNet [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleNeuralNet [compileReleaseCpp]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileReleaseCpp" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SimpleNeuralNet [compileReleaseCpp]" />
+        <item itemvalue="Gradle.SimpleNeuralNet [build]" />
+        <item itemvalue="Gradle.SimpleNeuralNet [assembleRelease]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,7 +148,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579774923897</updated>
+      <workItem from="1579774926842" duration="15056000" />
     </task>
+    <task id="LOCAL-00001" summary="created project">
+      <created>1579774964603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579774964603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created project" />
+    <option name="LAST_COMMIT_MESSAGE" value="created project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1016" y="132" width="849" height="813" key="CommitChangelistDialog2" timestamp="1579793122951">
+      <screen x="0" y="24" width="1920" height="1026" />
+    </state>
+    <state x="1016" y="132" width="849" height="813" key="CommitChangelistDialog2/0.24.1920.1026@0.24.1920.1026" timestamp="1579793122951" />
+    <state width="906" height="269" key="GridCell.Tab.0.bottom" timestamp="1579776953209">
+      <screen x="0" y="24" width="1920" height="1026" />
+    </state>
+    <state width="906" height="269" key="GridCell.Tab.0.bottom/0.24.1920.1026@0.24.1920.1026" timestamp="1579776953209" />
+    <state width="906" height="269" key="GridCell.Tab.0.center" timestamp="1579776953207">
+      <screen x="0" y="24" width="1920" height="1026" />
+    </state>
+    <state width="906" height="269" key="GridCell.Tab.0.center/0.24.1920.1026@0.24.1920.1026" timestamp="1579776953207" />
+    <state width="906" height="269" key="GridCell.Tab.0.left" timestamp="1579776953205">
+      <screen x="0" y="24" width="1920" height="1026" />
+    </state>
+    <state width="906" height="269" key="GridCell.Tab.0.left/0.24.1920.1026@0.24.1920.1026" timestamp="1579776953205" />
+    <state width="906" height="269" key="GridCell.Tab.0.right" timestamp="1579776953208">
+      <screen x="0" y="24" width="1920" height="1026" />
+    </state>
+    <state width="906" height="269" key="GridCell.Tab.0.right/0.24.1920.1026@0.24.1920.1026" timestamp="1579776953208" />
+    <state x="1035" y="273" width="812" height="531" key="Vcs.Push.Dialog.v2" timestamp="1579793132578">
+      <screen x="0" y="24" width="1920" height="1026" />
+    </state>
+    <state x="1035" y="273" width="812" height="531" key="Vcs.Push.Dialog.v2/0.24.1920.1026@0.24.1920.1026" timestamp="1579793132578" />
+    <state x="224" y="182" width="513" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1579776520843">
+      <screen x="0" y="24" width="1920" height="1026" />
+    </state>
+    <state x="224" y="182" width="513" height="713" key="refactoring.ChangeSignatureDialog/0.24.1920.1026@0.24.1920.1026" timestamp="1579776520843" />
+    <state x="138" y="245" width="672" height="677" key="run.anything.popup" timestamp="1579792283117">
+      <screen x="0" y="24" width="1920" height="1026" />
+    </state>
+    <state x="138" y="245" width="672" height="677" key="run.anything.popup/0.24.1920.1026@0.24.1920.1026" timestamp="1579792283117" />
+    <state x="143" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1579791021685">
+      <screen x="0" y="24" width="1920" height="1026" />
+    </state>
+    <state x="143" y="249" width="672" height="678" key="search.everywhere.popup/0.24.1920.1026@0.24.1920.1026" timestamp="1579791021685" />
   </component>
 </project>
