@@ -10,14 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b318d2-e708-42db-b0eb-8e7f33ce9dcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/cpp/neural_net/NeuralLayer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/cpp/neural_net/NeuralNetwork.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/cpp/neural_net/Neuron.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/headers/neural_net/NeuralLayer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/headers/neural_net/NeuralNetwork.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/headers/neural_net/Neuron.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/headers/app.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +29,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -168,10 +165,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="created project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1016" y="132" width="849" height="813" key="CommitChangelistDialog2" timestamp="1579793122951">
+    <state x="1016" y="132" width="849" height="813" key="CommitChangelistDialog2" timestamp="1579793618793">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
-    <state x="1016" y="132" width="849" height="813" key="CommitChangelistDialog2/0.24.1920.1026@0.24.1920.1026" timestamp="1579793122951" />
+    <state x="1016" y="132" width="849" height="813" key="CommitChangelistDialog2/0.24.1920.1026@0.24.1920.1026" timestamp="1579793618793" />
     <state width="906" height="269" key="GridCell.Tab.0.bottom" timestamp="1579776953209">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
@@ -188,10 +185,10 @@
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
     <state width="906" height="269" key="GridCell.Tab.0.right/0.24.1920.1026@0.24.1920.1026" timestamp="1579776953208" />
-    <state x="1035" y="273" width="812" height="531" key="Vcs.Push.Dialog.v2" timestamp="1579793132578">
+    <state x="1035" y="273" width="812" height="531" key="Vcs.Push.Dialog.v2" timestamp="1579793860998">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
-    <state x="1035" y="273" width="812" height="531" key="Vcs.Push.Dialog.v2/0.24.1920.1026@0.24.1920.1026" timestamp="1579793132578" />
+    <state x="1035" y="273" width="812" height="531" key="Vcs.Push.Dialog.v2/0.24.1920.1026@0.24.1920.1026" timestamp="1579793860998" />
     <state x="224" y="182" width="513" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1579776520843">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
