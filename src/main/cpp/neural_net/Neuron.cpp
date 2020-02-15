@@ -41,7 +41,7 @@ double Neuron::squaredError(double const a, double const b)
   return pow((a - b), 2) / 2;
 }
 
-double Neuron::squaredErrorPrime(double const a, double const b)
+double Neuron:: squaredErrorPrime(double const a, double const b)
 {
   return a - b;
 }

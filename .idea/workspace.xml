@@ -12,6 +12,7 @@
     <list default="true" id="c6b318d2-e708-42db-b0eb-8e7f33ce9dcf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/cpp/neural_net/NeuralLayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cpp/neural_net/NeuralLayer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/neural_net/Neuron.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cpp/neural_net/Neuron.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +169,28 @@
       <option name="project" value="LOCAL" />
       <updated>1579804394199</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added Todos">
+      <created>1579809222986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579809222986</updated>
+    </task>
+    <task id="LOCAL-00005" summary="deleted accidental implementation">
+      <created>1579809262341</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579809262341</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refractoring">
+      <created>1579809296342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579809296342</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,33 +200,36 @@
     <MESSAGE value="created project" />
     <MESSAGE value="added README.md" />
     <MESSAGE value="added .idea to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .idea to gitignore" />
+    <MESSAGE value="added Todos" />
+    <MESSAGE value="deleted accidental implementation" />
+    <MESSAGE value="refractoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refractoring" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1016" y="132" width="849" height="813" key="CommitChangelistDialog2" timestamp="1579809262270">
+    <state x="1016" y="132" width="849" height="813" key="CommitChangelistDialog2" timestamp="1579809296253">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
-    <state x="1016" y="132" width="849" height="813" key="CommitChangelistDialog2/0.24.1920.1026@0.24.1920.1026" timestamp="1579809262270" />
-    <state width="906" height="269" key="GridCell.Tab.0.bottom" timestamp="1579776953209">
+    <state x="1016" y="132" width="849" height="813" key="CommitChangelistDialog2/0.24.1920.1026@0.24.1920.1026" timestamp="1579809296253" />
+    <state width="906" height="269" key="GridCell.Tab.0.bottom" timestamp="1580121201598">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
-    <state width="906" height="269" key="GridCell.Tab.0.bottom/0.24.1920.1026@0.24.1920.1026" timestamp="1579776953209" />
-    <state width="906" height="269" key="GridCell.Tab.0.center" timestamp="1579776953207">
+    <state width="906" height="269" key="GridCell.Tab.0.bottom/0.24.1920.1026@0.24.1920.1026" timestamp="1580121201598" />
+    <state width="906" height="269" key="GridCell.Tab.0.center" timestamp="1580121201595">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
-    <state width="906" height="269" key="GridCell.Tab.0.center/0.24.1920.1026@0.24.1920.1026" timestamp="1579776953207" />
-    <state width="906" height="269" key="GridCell.Tab.0.left" timestamp="1579776953205">
+    <state width="906" height="269" key="GridCell.Tab.0.center/0.24.1920.1026@0.24.1920.1026" timestamp="1580121201595" />
+    <state width="906" height="269" key="GridCell.Tab.0.left" timestamp="1580121201593">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
-    <state width="906" height="269" key="GridCell.Tab.0.left/0.24.1920.1026@0.24.1920.1026" timestamp="1579776953205" />
-    <state width="906" height="269" key="GridCell.Tab.0.right" timestamp="1579776953208">
+    <state width="906" height="269" key="GridCell.Tab.0.left/0.24.1920.1026@0.24.1920.1026" timestamp="1580121201593" />
+    <state width="906" height="269" key="GridCell.Tab.0.right" timestamp="1580121201596">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
-    <state width="906" height="269" key="GridCell.Tab.0.right/0.24.1920.1026@0.24.1920.1026" timestamp="1579776953208" />
-    <state x="1035" y="273" width="812" height="531" key="Vcs.Push.Dialog.v2" timestamp="1579809287041">
+    <state width="906" height="269" key="GridCell.Tab.0.right/0.24.1920.1026@0.24.1920.1026" timestamp="1580121201596" />
+    <state x="1035" y="273" width="812" height="531" key="Vcs.Push.Dialog.v2" timestamp="1579809299913">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>
-    <state x="1035" y="273" width="812" height="531" key="Vcs.Push.Dialog.v2/0.24.1920.1026@0.24.1920.1026" timestamp="1579809287041" />
+    <state x="1035" y="273" width="812" height="531" key="Vcs.Push.Dialog.v2/0.24.1920.1026@0.24.1920.1026" timestamp="1579809299913" />
     <state x="224" y="182" width="513" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1579776520843">
       <screen x="0" y="24" width="1920" height="1026" />
     </state>

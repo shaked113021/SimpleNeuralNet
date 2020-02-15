@@ -17,8 +17,3 @@ std::vector<double> NeuralLayer::GetOutputs(std::vector<double>& inputs)
 
   return output;
 }
-
-void NeuralLayer::train(std::vector<double> &inputs, std::vector<double> &expectedOutput)
-{
- // TODO: Implement this
-}
